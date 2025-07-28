@@ -69,22 +69,30 @@
       padding: 30px;
       border-radius: 8px;
     }
+
+    /* SLIDER 16:9 FIX */
     .slider {
       position: relative;
       width: 100%;
-      max-width: 600px;
+      max-width: 960px;
+      aspect-ratio: 16 / 9;
       margin: auto;
       overflow: hidden;
       border-radius: 8px;
+      background-color: #000;
     }
     .slides {
       display: flex;
+      height: 100%;
       transition: transform 0.5s ease-in-out;
     }
     .slides img {
       width: 100%;
+      height: 100%;
+      object-fit: cover;
       flex-shrink: 0;
     }
+
     .slider-buttons {
       position: absolute;
       top: 50%;
