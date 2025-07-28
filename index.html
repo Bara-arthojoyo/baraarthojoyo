@@ -40,7 +40,7 @@
       text-decoration: none;
     }
     .hero {
-      background-image: url('ChatGPT Image Jul 28, 2025, 10_24_06 AM.png');
+      background-image: url('ChatGPT Image Jul 28, 2025, 10_24_06 AM.png'); /* Replace with the correct background image URL */
       background-size: cover;
       background-position: center;
       text-align: center;
@@ -49,56 +49,31 @@
     }
     .hero h1 {
       font-size: 48px;
+      font-weight: bold;
       margin: 0 0 20px;
     }
     .hero p {
       font-size: 20px;
+      max-width: 700px;
+      margin: 0 auto;
     }
     .cta-buttons button {
       margin: 10px;
-      padding: 10px 20px;
+      padding: 12px 24px;
       font-size: 16px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .cta-buttons button:hover {
+      background-color: #0056b3;
     }
     section {
       padding: 60px 20px;
       max-width: 1200px;
       margin: auto;
-    }
-    .product-specs, .contact-info {
-      background-color: #ffffff;
-      padding: 30px;
-      border-radius: 8px;
-    }
-    .slider {
-      position: relative;
-      width: 100%;
-      max-width: 600px;
-      margin: auto;
-      overflow: hidden;
-      border-radius: 8px;
-    }
-    .slides {
-      display: flex;
-      transition: transform 0.5s ease-in-out;
-    }
-    .slides img {
-      width: 100%;
-      flex-shrink: 0;
-    }
-    .slider-buttons {
-      position: absolute;
-      top: 50%;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      transform: translateY(-50%);
-    }
-    .slider-buttons button {
-      background-color: rgba(0, 0, 0, 0.5);
-      color: white;
-      border: none;
-      padding: 10px;
-      cursor: pointer;
     }
     footer {
       text-align: center;
@@ -139,87 +114,29 @@
     </nav>
   </header>
 
+  <!-- Hero Section -->
   <div class="hero">
-    <h1>PT BARA ARTHO JOYO</h1>
-    <p>Supplier Copper Slag Berkualitas Industri</p>
+    <h1>COPPER SLAG</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <div class="cta-buttons">
-      <button>Lihat Produk</button>
-      <button>Hubungi Kami</button>
+      <button>READ MORE</button>
     </div>
   </div>
 
+  <!-- Rest of the content -->
   <section id="tentang">
     <h2>Tentang Kami</h2>
     <p>PT BARA ARTHO JOYO adalah perusahaan penyedia material industri, khususnya <strong>Copper Slag</strong>, yang berasal dari sisa proses peleburan tembaga. Produk kami digunakan luas untuk keperluan <em>blasting media</em>, <em>abrasive cleaning</em>, dan material konstruksi.</p>
-    <h3>Visi</h3>
-    <p>Menjadi perusahaan penyedia material industri terkemuka yang unggul dalam mutu dan pelayanan.</p>
-    <h3>Misi</h3>
-    <ul>
-      <li>Memberikan produk berkualitas tinggi</li>
-      <li>Menjalin kemitraan yang berkelanjutan</li>
-      <li>Menjaga kepercayaan dan kepuasan pelanggan</li>
-    </ul>
   </section>
-
-  <section id="produk" class="product-specs">
-    <h2>Produk Kami – Copper Slag</h2>
-    <img src="WhatsApp_Image_2025-07-28_at_10.04.32-removebg-preview.png" alt="Copper Slag" width="200">
-    <ul>
-      <li>Ukuran: 0.5 – 2 mm</li>
-      <li>Kemurnian: > 95%</li>
-      <li>Kelembaban: < 1%</li>
-      <li>Kemasan: Jumbo Bag 1 Ton</li>
-    </ul>
-    <h4>Kegunaan:</h4>
-    <ul>
-      <li>Media sandblasting</li>
-      <li>Material dasar campuran semen</li>
-      <li>Lapisan anti-aus dan material konstruksi</li>
-    </ul>
-  </section>
-
-  <section id="galeri">
-    <h2>Galeri Produk & Kegiatan</h2>
-    <div class="slider">
-      <div class="slides" id="slides">
-        <img src="WhatsApp Image 2025-07-28 at 11.50.24.jpeg" alt="Pemuatan Slag">
-        <img src="ChatGPT Image Jul 28, 2025, 10_24_06 AM.png" alt="Produk Slag dalam Karung">
-      </div>
-      <div class="slider-buttons">
-        <button onclick="moveSlide(-1)">&#10094;</button>
-        <button onclick="moveSlide(1)">&#10095;</button>
-      </div>
-    </div>
-  </section>
-
-  <section id="kontak" class="contact-info">
-    <h2>Hubungi Kami</h2>
-    <p><strong>Alamat:</strong> Jl. Panggang No.40 Suci, Manyar, Kabupaten Gresik, Jawa Timur – Indonesia</p>
-    <p><strong>Telepon/WhatsApp:</strong> <a href="https://wa.me/6282335818787">+62 823-3581-8787</a></p>
-    <p><strong>Email:</strong> <a href="mailto:ptbaraarthojoyo@gmail.com">ptbaraarthojoyo@gmail.com</a></p>
-    <button onclick="window.location.href='https://wa.me/6282335818787'">Kirim Pesan WhatsApp</button>
-    <button onclick="window.location.href='mailto:ptbaraarthojoyo@gmail.com'">Kirim Email Sekarang</button>
-  </section>
-
-  <a href="https://wa.me/6282335818787" class="whatsapp-float" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
-    Contact Us
-  </a>
 
   <footer>
     <img src="LOGO PT.png" alt="Logo Mini" height="30">
     <p>© 2025 PT BARA ARTHO JOYO. All Rights Reserved.</p>
   </footer>
 
-  <script>
-    let currentIndex = 0;
-    const slides = document.getElementById('slides');
-    const totalSlides = slides.children.length;
-
-    function moveSlide(direction) {
-      currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
-      slides.style.transform = `translateX(-${currentIndex * 100}%)`;
-    }
-  </script>
+  <a href="https://wa.me/6282335818787" class="whatsapp-float" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    Contact Us
+  </a>
 </body>
 </html>
