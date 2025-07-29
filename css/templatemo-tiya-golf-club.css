@@ -1287,3 +1287,21 @@ strong {
   }
 }
 
+/* CUSTOM HEADER LOGO DENGAN MEDIA */
+.site-logo {
+  font-size: 22px;
+  font-weight: bold;
+  white-space: nowrap;
+  flex-shrink: 0;
+  max-width: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.site-logo .media-tag {
+  font-size: 16px;
+  color: #4CAF50;
+  font-style: italic;
+  margin-left: 6px;
+}
+
