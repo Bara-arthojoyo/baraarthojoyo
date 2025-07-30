@@ -1344,3 +1344,6 @@ strong {
 .carousel-button.right {
   right: 10px;
 }
+.product-slide {
+  cursor: pointer;
+}
