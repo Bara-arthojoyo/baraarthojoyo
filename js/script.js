@@ -23,3 +23,19 @@ function prevProductSlide() {
 }
 
 setInterval(nextProductSlide, 5000); // Auto slide every 5 seconds
+}
+<script>
+  function sendEmail(event) {
+    event.preventDefault(); // stop form from actually submitting
+
+    const name = document.getElementById('full-name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    const subject = encodeURIComponent("Contact from " + name);
+    const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
+
+    window.location.href = `mailto:ptbaraarthojoyo@gmail.com?subject=${subject}&body=${body}`;
+  }
+</script>
+
