@@ -458,6 +458,30 @@
     </div>
   </div>
 </form>
+                           <script>
+  function sendEmail(event) {
+    event.preventDefault(); // Cegah submit form default
+
+    const name = document.getElementById('full-name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+
+    // Cek jika input kosong
+    if (!name || !email || !message) {
+      alert('Please fill out all fields.');
+      return;
+    }
+
+    const subject = encodeURIComponent("Customers");
+    const body = encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+    );
+
+    const mailtoURL = `mailto:ptbaraarthojoyo@gmail.com?subject=${subject}&body=${body}`;
+    
+    window.location.href = mailtoURL;
+  }
+</script>
                         </div>
 
                         <div class="col-lg-6 col-12">
