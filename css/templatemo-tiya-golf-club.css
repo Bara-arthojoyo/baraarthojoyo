@@ -1355,16 +1355,3 @@ html, body {
   flex-direction: column;
 }
 
-.main-content {
-  flex: 1;
-}
-
-/* Footer styling with SVG background */
-.footer {
-  position: relative;
-  background-color: #f8f9fa;
-   background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  z-index: 1;
-}
