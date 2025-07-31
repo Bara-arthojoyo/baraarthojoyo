@@ -408,7 +408,7 @@ strong {
 -----------------------------------------*/
 .offcanvas {
   background-color: var(--primary-color);
-  padding: 30px;
+  padding: 20px;
 }
 
 .offcanvas.offcanvas-end {
@@ -1042,7 +1042,7 @@ strong {
 -----------------------------------------*/
 .site-footer {
   position: relative;
-  padding-bottom: 200px;
+  padding-bottom: 0px;
 }
 
 .site-footer .container {
